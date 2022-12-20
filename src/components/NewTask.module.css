@@ -1,0 +1,125 @@
+.form { 
+  width: 73.6rem;
+  height: 5.2rem;
+  margin-top: -2.5rem;
+  margin-bottom: 6.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.input {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.6rem;
+  gap: .8rem;
+  font-size: 1.6rem;
+  color: #fff;
+
+  width: 39.8rem;
+  height: 5.4rem;
+
+  background: #262626;
+  border: none;
+  border-radius: 8px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 1.6rem;
+  
+
+  padding: 1.6rem;
+  width: 9rem;
+  height: 5.2rem;
+
+  color: #ffffff;
+  background: #1E6F9F;
+  border-radius: 8px;
+  border: none;
+}
+
+.info {
+  width: 73.6rem;
+  margin-bottom: 2.4rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info section:nth-child(2) {
+  margin-top: 1.6rem;
+}
+
+.created {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.created strong {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+
+  color: #4EA8DE;
+}
+
+.created span {
+  padding: 2px 8px;
+
+  font-size: 12px;
+  line-height: 15px;
+  color: #D9D9D9;
+  
+  background: #333333;
+  border-radius: 9999px;
+
+}
+
+.done {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.done strong {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+
+  color: #8284FA;
+}
+
+.done span {
+  padding: 2px 8px;
+
+  font-size: 12px;
+  line-height: 15px;
+  color: #D9D9D9;
+
+  display: flex;
+  flex-direction: row;
+  
+  background: #333333;
+  border-radius: 9999px;
+
+}

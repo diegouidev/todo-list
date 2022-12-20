@@ -1,0 +1,25 @@
+.empty {
+  width: 73.6rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  border-top: 1px solid #262626;
+  border-radius: 8px;
+  padding: 6.4rem;
+}
+
+.empty strong {
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #808080;
+  margin-top: 1.6rem;
+}
+
+.empty span {
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #808080;
+}
